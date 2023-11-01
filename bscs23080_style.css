@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Full-width Section Styles */
+.full-width-section {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Product Box Styles */
+.product-box {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product-details {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fca311;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+/* Content Box Styles */
+.contact-box {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-box h2 {
+    color: #333;
+}
+
+.contact-box p {
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Social Media Styles */
+.social-media {
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media h2 {
+    color: #333;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Adjust social media logo size */
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
